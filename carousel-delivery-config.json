@@ -1,0 +1,11 @@
+{
+  "google_drive_folder_url": "https://drive.google.com/drive/u/2/folders/1Vvm5DYjMuMHl0XRQXRYWgncrO8TtjgKw",
+  "google_drive_folder_id": "1Vvm5DYjMuMHl0XRQXRYWgncrO8TtjgKw",
+  "drive_upload_policy": "pdfs_only_no_zips",
+  "resource_filename_prefix_policy": "no_lead_magnet_prefix_from_2026-07-22",
+  "zip_filename_policy": "prefer_carrusel_y_recurso_from_2026-07-22_keep_legacy_valid",
+  "drive_upload_method": "rclone",
+  "rclone_remote": "jaime_carousel_drive",
+  "drive_local_path": null,
+  "notes": "Upload carousel PDF and resource PDF only. Do not upload ZIPs to Drive. Use rclone remote jaime_carousel_drive, rooted at the configured Drive folder. The current rclone remote uses rclone's shared Google Drive client_id; replace with Jaime-owned OAuth client_id during 2026 for long-term reliability."
+}

@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>La IA ya no solo responde: ahora intenta cerrar el trabajo</title>
+</head>
+<body style="margin:0; padding:0; background:#f4f7f5; font-family:Arial, Helvetica, sans-serif; color:#16211b;">
+  <div style="display:none; max-height:0; overflow:hidden; opacity:0;">n8n Assistant, Agents API y nuevos agentes de datos muestran el mismo cambio: pasar de generar contenido a completar procesos revisables.</div>
+  <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="background:#f4f7f5; margin:0; padding:24px 0;">
+    <tr><td align="center" style="padding:0 14px;">
+      <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="max-width:680px; background:#ffffff; border:1px solid #dbe7df; border-radius:8px; overflow:hidden;">
+        <tr><td style="background:#173f2a; padding:22px 26px; color:#ffffff;">
+          <div style="font-size:13px; text-transform:uppercase; color:#bfe9ce; font-weight:700;">newsletter de IA &amp; Automatización de Jaime Cabadas</div>
+          <h1 style="margin:10px 0 0; font-size:28px; line-height:1.2; font-weight:800;">La IA ya no solo responde: ahora intenta cerrar el trabajo</h1>
+        </td></tr>
+
+        <tr><td style="padding:28px 26px 8px; font-size:16px; line-height:1.6;">
+          <p style="margin:0 0 16px;">Hola {{ $json.body.nombre }},</p>
+          <p style="margin:0 0 16px;">Esta semana varias herramientas han dado el mismo paso: ya no quieren limitarse a sugerirte qué hacer. Quieren construir el flujo, ejecutarlo, detectar fallos y dejar el resultado preparado.</p>
+          <p style="margin:0 0 16px;">Eso puede ahorrar mucho trabajo. También cambia la pregunta importante. Ya no basta con preguntar si la IA responde bien. Hay que saber <strong>qué puede tocar, qué evidencia deja y en qué punto debe esperar a una persona</strong>.</p>
+        </td></tr>
+
+        <tr><td style="padding:22px 26px 0; font-size:16px; line-height:1.6;">
+          <h2 style="font-size:21px; line-height:1.3; margin:0 0 14px; color:#173f2a;">Lo más importante en IA esta semana</h2>
+
+          <h3 style="font-size:17px; margin:18px 0 6px; color:#16211b;">1. n8n presenta un asistente que construye, ejecuta y depura workflows</h3>
+          <p style="margin:0 0 12px;">n8n Assistant permite describir una automatización en lenguaje natural. A partir de ahí propone el flujo, lo monta en el lienzo, solicita las conexiones necesarias, lo ejecuta y ayuda a corregir lo que falle.</p>
+          <p style="margin:0 0 12px;"><strong>Por qué importa:</strong> reduce la distancia entre tener una idea y conseguir un primer workflow funcionando. El resultado sigue siendo un flujo normal de n8n: visible, editable y con registro de ejecuciones.</p>
+          <p style="margin:0 0 12px;"><strong>Qué no exageraría:</strong> está en vista previa y el primer resultado no tiene por qué estar listo para producción. Los permisos, las excepciones, el control de costes y las aprobaciones siguen siendo trabajo del responsable del proceso.</p>
+
+          <h3 style="font-size:17px; margin:18px 0 6px; color:#16211b;">2. OpenAI abre una API para ejecutar agentes de larga duración</h3>
+          <p style="margin:0 0 12px;">La nueva Agents API, disponible en beta pública, lleva a desarrolladores la infraestructura que coordina contexto, herramientas, entornos de trabajo y subagentes. Puede ejecutarse en un entorno alojado por OpenAI, en infraestructura propia o con un proveedor compatible.</p>
+          <p style="margin:0 0 12px;"><strong>Por qué importa:</strong> construir un agente fiable deja de ser solo elegir un modelo. También hay que mantener el estado, aislar el entorno, reanudar tareas largas y observar qué ocurrió.</p>
+          <p style="margin:0 0 12px;"><strong>Para un negocio:</strong> la oportunidad está en delegar procesos completos y acotados, no en dar acceso general a todo. Un agente útil necesita herramientas concretas, permisos mínimos y un criterio claro de finalización.</p>
+
+          <h3 style="font-size:17px; margin:18px 0 6px; color:#16211b;">3. Los datos de empresa se convierten en una capa operativa</h3>
+          <p style="margin:0 0 12px;">OpenAI ha presentado Data agent para ChatGPT Work. Se conecta a fuentes aprobadas como BigQuery, Snowflake, Databricks, Redshift, Google Drive o SharePoint; investiga preguntas de negocio y puede crear paneles interactivos respetando los permisos existentes.</p>
+          <p style="margin:0 0 12px;"><strong>Por qué importa:</strong> pedir “por qué bajaron las ventas” puede iniciar un análisis real, no solo una explicación genérica. Pero la calidad depende de tener métricas, definiciones y fuentes fiables.</p>
+          <p style="margin:0 0 12px;"><strong>Mi lectura práctica:</strong> si dos personas calculan de forma distinta qué es un cliente activo, conectar una IA no arregla el problema. Primero hay que ordenar el dato; después, automatizar la investigación y la acción.</p>
+
+          <h3 style="font-size:17px; margin:18px 0 6px; color:#16211b;">4. La voz y las hojas de cálculo se acercan a la ejecución</h3>
+          <p style="margin:0 0 12px;">OpenAI lanzó GPT‑Live‑1 para crear agentes de voz que gestionan interrupciones, conversaciones largas y llamadas, delegando el razonamiento y las acciones a un sistema de fondo. Google, por su parte, amplió sus planes de IA con herramientas como Sheets canvas, capaz de convertir una hoja en una miniaplicación interactiva mediante instrucciones.</p>
+          <p style="margin:0 0 12px;"><strong>Por qué importa:</strong> la interfaz empieza a importar menos. Un cliente puede hablar; un empleado puede trabajar desde una hoja; el sistema de fondo consulta datos, aplica reglas y prepara el siguiente paso.</p>
+          <p style="margin:0 0 12px;"><strong>Qué haría:</strong> empezaría por una consulta frecuente y de bajo riesgo, no por sustituir de golpe el teléfono, el CRM o todos los informes de la empresa.</p>
+        </td></tr>
+
+        <tr><td style="padding:18px 26px 0; font-size:16px; line-height:1.6;">
+          <h2 style="font-size:21px; line-height:1.3; margin:0 0 14px; color:#173f2a;">Lectura de Jaime</h2>
+          <p style="margin:0 0 14px;">Mi lectura: <strong>la unidad de valor ya no es la respuesta; es el proceso terminado y revisable</strong>.</p>
+          <p style="margin:0 0 14px;">Un borrador puede impresionar. Un sistema útil recibe una entrada, consulta el contexto correcto, decide dentro de unos límites, ejecuta una acción y deja evidencia para revisar.</p>
+          <p style="margin:0 0 14px;">Lo importante no es la herramienta, sino el proceso que cierra. Y cuanto más pueda hacer el agente, más explícitos deben ser sus límites.</p>
+        </td></tr>
+
+        <tr><td style="padding:18px 26px 0; font-size:16px; line-height:1.6;">
+          <h2 style="font-size:21px; line-height:1.3; margin:0 0 14px; color:#173f2a;">Aplicación práctica</h2>
+          <p style="margin:0 0 14px;">Imagina las incidencias de un negocio. En lugar de pedir a la IA que redacte una respuesta aislada, el sistema puede:</p>
+          <ol style="margin:0 0 14px 20px; padding:0;">
+            <li style="margin-bottom:7px;">Recoger el mensaje y localizar el pedido o cliente.</li>
+            <li style="margin-bottom:7px;">Clasificar el problema y consultar la política aplicable.</li>
+            <li style="margin-bottom:7px;">Preparar la solución y actualizar el registro interno.</li>
+            <li style="margin-bottom:7px;">Resolver automáticamente solo los casos seguros.</li>
+            <li style="margin-bottom:7px;">Escalar el resto con contexto, propuesta y evidencias.</li>
+          </ol>
+          <p style="margin:0 0 14px;">Ahí la IA no reemplaza el proceso: lo atraviesa con límites. La persona deja de reconstruir cada caso desde cero y se concentra en las excepciones.</p>
+        </td></tr>
+
+        <tr><td style="padding:18px 26px 0; font-size:16px; line-height:1.6;">
+          <h2 style="font-size:21px; line-height:1.3; margin:0 0 14px; color:#173f2a;">Construyendo en público</h2>
+          <p style="margin:0 0 14px;">Es la filosofía que estoy aplicando con OpenClaw y n8n. La IA puede investigar, comparar fuentes, redactar y montar el paquete de trabajo. n8n puede mover datos y coordinar los pasos. Pero las acciones con impacto —como enviar esta newsletter— se detienen hasta recibir aprobación.</p>
+          <p style="margin:0 0 14px;">Esa pausa no es una limitación. Es parte del diseño.</p>
+        </td></tr>
+
+        <tr><td style="padding:18px 26px 0; font-size:16px; line-height:1.6;">
+          <h2 style="font-size:21px; line-height:1.3; margin:0 0 14px; color:#173f2a;">Idea accionable para hoy</h2>
+          <p style="margin:0 0 12px;">En 15 minutos, coge una tarea recurrente y dibuja cinco casillas:</p>
+          <ol style="margin:0 0 14px 20px; padding:0;">
+            <li style="margin-bottom:7px;"><strong>Entrada:</strong> qué inicia el trabajo.</li>
+            <li style="margin-bottom:7px;"><strong>Contexto:</strong> qué datos necesita.</li>
+            <li style="margin-bottom:7px;"><strong>Decisión:</strong> qué criterio debe aplicar.</li>
+            <li style="margin-bottom:7px;"><strong>Acción:</strong> qué puede hacer realmente.</li>
+            <li style="margin-bottom:7px;"><strong>Revisión:</strong> qué debe aprobar una persona.</li>
+          </ol>
+          <p style="margin:0 0 14px;">Si no puedes rellenar esas cinco casillas con claridad, todavía no necesitas un agente. Necesitas entender mejor el proceso.</p>
+        </td></tr>
+
+        <tr><td style="padding:20px 26px;">
+          <div style="background:#e6f6eb; border:1px solid #8bc99e; border-radius:8px; padding:20px;">
+            <h2 style="font-size:20px; line-height:1.3; margin:0 0 10px; color:#173f2a;">Entra en la comunidad privada</h2>
+            <p style="margin:0 0 14px; font-size:16px; line-height:1.55; color:#1b3728;">Estoy reuniendo en el Drive recursos prácticos para montar sistemas de IA y automatización sin empezar desde cero: workflows, prompts, agentes, plantillas y tutoriales.</p>
+            <a href="https://chat.whatsapp.com/F9iP50T3JJWLkYFUNgEIh6?mode=gi_t" style="display:inline-block; background:#1f8f4d; color:#ffffff; text-decoration:none; padding:12px 18px; border-radius:6px; font-weight:700; font-size:15px;">Unirme a la comunidad privada de WhatsApp</a>
+          </div>
+        </td></tr>
+
+        <tr><td style="padding:4px 26px 24px; font-size:16px; line-height:1.6;">
+          <p style="margin:0 0 4px;">Un abrazo,</p>
+          <p style="margin:0 0 4px;"><strong>Jaime Cabadas</strong></p>
+          <p style="margin:0; color:#496254;">IA, automatización, agentes y sistemas aplicados a negocio.</p>
+        </td></tr>
+
+        <tr><td style="background:#f4f7f5; padding:16px 26px; font-size:12px; line-height:1.5; color:#5c6f64;">
+          Fuentes: n8n, OpenAI y Google. Borrador pendiente de revisión y aprobación antes de enviar.
+        </td></tr>
+      </table>
+    </td></tr>
+  </table>
+</body>
+</html>

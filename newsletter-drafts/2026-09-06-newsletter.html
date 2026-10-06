@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>La IA ya puede hacer mas. Tu proceso debe decidir cuanto.</title>
+</head>
+<body style="margin:0; padding:0; background:#f4f7f5; font-family:Arial, Helvetica, sans-serif; color:#16211b;">
+  <div style="display:none; max-height:0; overflow:hidden; opacity:0;">OpenAI, Anthropic y Google han subido el liston de los agentes. La ventaja esta en decidir que pueden hacer y que debe revisar una persona.</div>
+  <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="background:#f4f7f5; margin:0; padding:24px 0;">
+    <tr><td align="center" style="padding:0 14px;">
+      <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="max-width:680px; background:#ffffff; border:1px solid #dbe7df; border-radius:8px; overflow:hidden;">
+        <tr><td style="background:#173f2a; padding:22px 26px; color:#ffffff;">
+          <div style="font-size:13px; text-transform:uppercase; color:#bfe9ce; font-weight:700;">newsletter de IA &amp; Automatizacion de Jaime Cabadas</div>
+          <h1 style="margin:10px 0 0; font-size:28px; line-height:1.2; font-weight:800;">La IA ya puede hacer mas. Tu proceso debe decidir cuanto.</h1>
+        </td></tr>
+        <tr><td style="padding:28px 26px 8px; font-size:16px; line-height:1.6;">
+          <p style="margin:0 0 16px;">Hola {{ $json.body.nombre }},</p>
+          <p style="margin:0 0 16px;">Esta semana OpenAI, Anthropic y Google han presentado modelos mas capaces para trabajar durante varios pasos, usar herramientas y resolver tareas complejas.</p>
+          <p style="margin:0 0 16px;">La noticia facil seria decir que la IA vuelve a ser mas potente. La lectura util es otra: <strong>cuanto mas puede hacer un agente, mas importante es decidir donde empieza, donde termina y que necesita aprobacion humana</strong>.</p>
+        </td></tr>
+        <tr><td style="padding:6px 26px 4px;">
+          <div style="border:1px solid #d8e5dd; border-radius:8px; padding:18px; background:#f8fbf9;">
+            <div style="font-size:13px; color:#426352; font-weight:700; text-transform:uppercase; margin-bottom:6px;">Imagen propuesta para revisar</div>
+            <p style="margin:0; font-size:15px; line-height:1.55; color:#22382c;">Ilustracion editorial original: una mesa de operaciones con tres motores de IA alimentando un unico flujo de negocio; antes de la salida hay una compuerta verde de aprobacion humana y un registro de actividad. Estilo limpio, fondo claro, sin logos ni texto. Esta imagen deberia generarse y aprobarse junto al borrador antes del envio; el email funciona perfectamente sin ella.</p>
+          </div>
+        </td></tr>
+        <tr><td style="padding:22px 26px 0; font-size:16px; line-height:1.6;">
+          <h2 style="font-size:21px; line-height:1.3; margin:0 0 14px; color:#173f2a;">Lo mas importante en IA esta semana</h2>
+          <h3 style="font-size:17px; margin:18px 0 6px; color:#16211b;">1. OpenAI lanza GPT-6 Astra y pone el foco en el trabajo de varios pasos</h3>
+          <p style="margin:0 0 12px;">Astra mejora en programacion, investigacion, uso del ordenador y tareas profesionales complejas. Puede crear documentos, hojas de calculo y presentaciones siguiendo plantillas, y adaptarse cuando cambian los requisitos.</p>
+          <p style="margin:0 0 12px;"><strong>Por que importa:</strong> el salto no esta solo en responder mejor, sino en mantener el contexto mientras ejecuta una cadena de trabajo. OpenAI tambien ha anadido monitorizacion y pausas cuando detecta que el agente puede haber interpretado mal una instruccion.</p>
+          <p style="margin:0 0 12px;"><strong>Para un negocio:</strong> es una razon para probar procesos completos, no prompts sueltos. Pero el despliegue es gradual y una buena demo no elimina la necesidad de permisos, registros y revision.</p>
+
+          <h3 style="font-size:17px; margin:18px 0 6px; color:#16211b;">2. Anthropic actualiza sus modelos para codigo y trabajo de conocimiento</h3>
+          <p style="margin:0 0 12px;">Claude Fable 5.1 y Mythos 5.1 llegan con mejoras para tareas exigentes de programacion, investigacion y trabajo profesional. Fable 5.1 reduce ademas el coste de lectura de cache, algo relevante en agentes que consultan mucho contexto una y otra vez.</p>
+          <p style="margin:0 0 12px;"><strong>Por que importa:</strong> en produccion no gana siempre el modelo mas brillante. Gana el que mantiene calidad suficiente con un coste y una latencia que el negocio puede sostener.</p>
+          <p style="margin:0 0 12px;"><strong>Para un negocio:</strong> mide coste por proceso terminado y revisado, no precio por token ni resultado de benchmark.</p>
+
+          <h3 style="font-size:17px; margin:18px 0 6px; color:#16211b;">3. Google presenta Gemini 3.8 Flash para agentes a escala</h3>
+          <p style="margin:0 0 12px;">Google posiciona Gemini 3.8 Flash como modelo de trabajo para programacion, tareas agenticas y razonamiento de varios pasos, manteniendo el precio introductorio de la version anterior. Admite hasta un millon de tokens de entrada y uso de herramientas.</p>
+          <p style="margin:0 0 12px;"><strong>Por que importa:</strong> mas capacidad a precio bajo hace viable usar IA en tareas frecuentes, no solo en encargos excepcionales.</p>
+          <p style="margin:0 0 12px;"><strong>Que no exageraria:</strong> barato por llamada no significa barato por sistema. Reintentos, errores, supervision y volumen tambien cuentan.</p>
+
+          <h3 style="font-size:17px; margin:18px 0 6px; color:#16211b;">4. La infraestructura de agentes empieza a parecerse a la de software serio</h3>
+          <p style="margin:0 0 12px;">Cursor Cloud Agents ya puede ejecutarse en Vercel Sandbox, con una maquina aislada por solicitud, reintentos duraderos, escalado a cero y credenciales de corta duracion.</p>
+          <p style="margin:0 0 12px;"><strong>Por que importa:</strong> el agente no es solo el modelo. Tambien necesita un entorno controlado, recuperacion ante fallos y accesos temporales.</p>
+          <p style="margin:0 0 12px;"><strong>Para un negocio:</strong> aplica el mismo patron a ventas, soporte o administracion: acceso minimo, acciones trazables y recuperacion clara cuando algo falla.</p>
+        </td></tr>
+        <tr><td style="padding:18px 26px 0; font-size:16px; line-height:1.6;">
+          <h2 style="font-size:21px; line-height:1.3; margin:0 0 14px; color:#173f2a;">Lectura de Jaime</h2>
+          <p style="margin:0 0 14px;">Los modelos se estan convirtiendo en piezas intercambiables dentro de un sistema. Esta semana lo deja bastante claro: hay mas capacidad, mas opciones y mas competencia en precio.</p>
+          <p style="margin:0 0 14px;">Mi lectura: <strong>la ventaja no esta en elegir un ganador para siempre, sino en construir un proceso que pueda probar modelos sin perder control</strong>.</p>
+          <p style="margin:0 0 14px;">Lo importante no es la herramienta, sino el proceso que cierra. Un modelo prepara; el sistema valida; una persona aprueba lo que tiene riesgo, impacto o criterio.</p>
+        </td></tr>
+        <tr><td style="padding:18px 26px 0; font-size:16px; line-height:1.6;">
+          <h2 style="font-size:21px; line-height:1.3; margin:0 0 14px; color:#173f2a;">Aplicacion practica</h2>
+          <p style="margin:0 0 14px;">Imagina un proceso de leads. La IA puede leer el formulario, enriquecer el contexto, clasificar la oportunidad y preparar un mensaje. n8n puede registrar el resultado, aplicar reglas y crear la tarea. La persona solo revisa los casos importantes antes de enviar.</p>
+          <p style="margin:0 0 14px;">Si manana cambias de modelo, el proceso sigue siendo el mismo. Eso es lo que protege la inversion: <strong>la logica del negocio vive en el sistema, no dentro de un prompt perdido</strong>.</p>
+        </td></tr>
+        <tr><td style="padding:18px 26px 0; font-size:16px; line-height:1.6;">
+          <h2 style="font-size:21px; line-height:1.3; margin:0 0 14px; color:#173f2a;">Construyendo en publico</h2>
+          <p style="margin:0 0 14px;">Es la misma filosofia que estoy aplicando con OpenClaw y n8n: la IA investiga, filtra, redacta y prepara paquetes de trabajo; el workflow registra el estado y pide aprobacion cuando toca.</p>
+          <p style="margin:0 0 14px;">Esta newsletter es un ejemplo. El sistema puede dejar el asunto, las fuentes y el HTML listos. El envio no debe ocurrir hasta que yo revise el conjunto. Esa pausa es parte del producto.</p>
+        </td></tr>
+        <tr><td style="padding:18px 26px 0; font-size:16px; line-height:1.6;">
+          <h2 style="font-size:21px; line-height:1.3; margin:0 0 14px; color:#173f2a;">Idea accionable para hoy</h2>
+          <p style="margin:0 0 12px;">En 15 minutos, elige una automatizacion y rellena esta ficha:</p>
+          <ol style="margin:0 0 14px 20px; padding:0;">
+            <li style="margin-bottom:7px;">Resultado final que debe quedar preparado.</li>
+            <li style="margin-bottom:7px;">Datos que puede consultar la IA.</li>
+            <li style="margin-bottom:7px;">Acciones que puede ejecutar sola.</li>
+            <li style="margin-bottom:7px;">Acciones que requieren aprobacion.</li>
+            <li style="margin-bottom:7px;">Evidencia que debe dejar al terminar.</li>
+          </ol>
+          <p style="margin:0 0 14px;">Despues prueba dos modelos con tres casos reales. Compara aciertos, correcciones humanas, tiempo y coste. Esa pequena prueba dice mas que veinte rankings.</p>
+        </td></tr>
+        <tr><td style="padding:20px 26px;">
+          <div style="background:#e6f6eb; border:1px solid #8bc99e; border-radius:8px; padding:20px;">
+            <h2 style="font-size:20px; line-height:1.3; margin:0 0 10px; color:#173f2a;">Entra en la comunidad privada</h2>
+            <p style="margin:0 0 14px; font-size:16px; line-height:1.55; color:#1b3728;">Estoy reuniendo en el Drive recursos practicos para montar sistemas de IA y automatizacion sin empezar desde cero: workflows, prompts, agentes, plantillas y tutoriales.</p>
+            <a href="https://chat.whatsapp.com/F9iP50T3JJWLkYFUNgEIh6?mode=gi_t" style="display:inline-block; background:#1f8f4d; color:#ffffff; text-decoration:none; padding:12px 18px; border-radius:6px; font-weight:700; font-size:15px;">Unirme a la comunidad privada de WhatsApp</a>
+          </div>
+        </td></tr>
+        <tr><td style="padding:4px 26px 24px; font-size:16px; line-height:1.6;">
+          <p style="margin:0 0 4px;">Un abrazo,</p>
+          <p style="margin:0 0 4px;"><strong>Jaime Cabadas</strong></p>
+          <p style="margin:0; color:#496254;">IA, automatizacion, agentes y sistemas aplicados a negocio.</p>
+        </td></tr>
+        <tr><td style="background:#f4f7f5; padding:16px 26px; font-size:12px; line-height:1.5; color:#5c6f64;">
+          Fuentes: OpenAI, Anthropic, Google DeepMind, Vercel y GitHub. Borrador pendiente de revision y aprobacion antes de enviar.
+        </td></tr>
+      </table>
+    </td></tr>
+  </table>
+</body>
+</html>

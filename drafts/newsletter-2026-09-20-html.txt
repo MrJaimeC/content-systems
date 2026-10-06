@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light only">
+  <title>La IA te ahorra horas. El cuello de botella sigue ahí.</title>
+</head>
+<body style="margin:0;padding:0;background:#f3f5f4;color:#17201c;font-family:Arial,Helvetica,sans-serif;">
+  <div style="display:none;max-height:0;overflow:hidden;opacity:0;color:transparent;">La noticia no es que la IA haga más. Es que obliga a rediseñar lo que ocurre después.</div>
+  <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="background:#f3f5f4;">
+    <tr>
+      <td align="center" style="padding:28px 12px;">
+        <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="max-width:680px;background:#ffffff;border-radius:18px;overflow:hidden;">
+          <tr>
+            <td style="padding:20px 32px;background:#123b2a;color:#dff6e8;font-size:13px;letter-spacing:.5px;text-transform:uppercase;font-weight:bold;">
+              newsletter de IA &amp; Automatización de Jaime Cabadas
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:38px 32px 22px;">
+              <div style="font-size:13px;color:#637168;margin-bottom:12px;">SEMANA DEL 14 AL 20 DE SEPTIEMBRE DE 2026</div>
+              <h1 style="margin:0;font-size:38px;line-height:1.12;color:#102b20;letter-spacing:-.8px;">La IA te ahorra horas.<br>El cuello de botella sigue ahí.</h1>
+              <p style="margin:18px 0 0;font-size:19px;line-height:1.55;color:#405047;">Esta semana dejó una lección bastante más útil que cualquier lanzamiento: acelerar una tarea no sirve de mucho si no preparas la validación, los permisos y el siguiente paso.</p>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:0 32px 28px;">
+              <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="background:#eaf5ee;border-radius:14px;">
+                <tr>
+                  <td align="center" style="padding:18px 10px;font-size:14px;color:#244c37;"><strong>ENTRADA</strong><br>información</td>
+                  <td align="center" style="padding:18px 4px;color:#4b7b5e;">→</td>
+                  <td align="center" style="padding:18px 10px;font-size:14px;color:#244c37;"><strong>IA</strong><br>propuesta</td>
+                  <td align="center" style="padding:18px 4px;color:#4b7b5e;">→</td>
+                  <td align="center" style="padding:18px 10px;font-size:14px;color:#244c37;"><strong>CONTROL</strong><br>revisión</td>
+                  <td align="center" style="padding:18px 4px;color:#4b7b5e;">→</td>
+                  <td align="center" style="padding:18px 10px;font-size:14px;color:#244c37;"><strong>ACCIÓN</strong><br>resultado</td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:0 32px 8px;font-size:17px;line-height:1.7;color:#28362f;">
+              <p>Hola {{ $json.body.nombre }},</p>
+              <p>Google ha publicado datos que ponen números a algo que vemos cada vez más: la IA puede liberar horas de trabajo, pero ese tiempo no se convierte automáticamente en mejores resultados.</p>
+              <p>En su estudio sobre científicos, casi la mitad afirma usar IA a diario y el ahorro declarado roza las siete horas semanales. A la vez, aparecen nuevas colas de trabajo: hipótesis pendientes, resultados por comprobar y más tiempo dedicado a validar.</p>
+              <p><strong>Mi lectura:</strong> cuando aceleras una parte del proceso, el cuello de botella no desaparece. Se mueve.</p>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:22px 32px 8px;">
+              <h2 style="margin:0;font-size:26px;line-height:1.25;color:#123b2a;">Lo más importante en IA esta semana</h2>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:10px 32px 4px;">
+              <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="border-top:1px solid #dfe7e2;">
+                <tr><td style="padding:24px 0;font-size:16px;line-height:1.65;color:#2d3b34;">
+                  <div style="font-size:12px;color:#26734a;font-weight:bold;letter-spacing:.5px;">01 · GOOGLE</div>
+                  <h3 style="margin:7px 0 8px;font-size:21px;color:#17201c;">La productividad no basta: hay que rediseñar el flujo</h3>
+                  <p style="margin:0 0 10px;">Google abrió nuevas visualizaciones de su AI &amp; Economy ATLAS y publicó investigación con Google DeepMind y MIT FutureTech. El dato útil no es solo el ahorro de tiempo: la producción se acelera antes que la capacidad de validar y ejecutar.</p>
+                  <p style="margin:0;"><strong>Qué cambia para un negocio:</strong> si la IA genera diez propuestas comerciales en vez de dos, alguien debe priorizarlas, comprobar datos, aprobar descuentos y registrar el resultado. Sin ese tramo, solo has creado una cola más grande.</p>
+                  <p style="margin:10px 0 0;"><a href="https://blog.google/innovation-and-ai/technology/ai/ai-economy-atlas-september-2026/" style="color:#1d6a42;font-weight:bold;">Ver fuente oficial →</a></p>
+                </td></tr>
+                <tr><td style="padding:24px 0;border-top:1px solid #dfe7e2;font-size:16px;line-height:1.65;color:#2d3b34;">
+                  <div style="font-size:12px;color:#26734a;font-weight:bold;letter-spacing:.5px;">02 · ANTHROPIC + ACCENTURE</div>
+                  <h3 style="margin:7px 0 8px;font-size:21px;color:#17201c;">Evaluar desde dentro, sin eliminar la responsabilidad</h3>
+                  <p style="margin:0 0 10px;">Anthropic y Accenture anunciaron un sistema de evaluación independiente integrado dentro del laboratorio, con acceso para observar cómo se entrenan y despliegan los modelos. El acuerdo incluye pruebas de seguridad, red teaming y revisión de salvaguardas.</p>
+                  <p style="margin:0;"><strong>Qué no conviene exagerar:</strong> todavía no hay estándares cerrados para este modelo. Lo relevante es el principio: una evaluación sirve cuando tiene acceso al proceso, evidencia y capacidad de señalar fallos, no cuando llega al final para poner un sello.</p>
+                  <p style="margin:10px 0 0;"><a href="https://www.anthropic.com/news/accenture-embedded-evaluation" style="color:#1d6a42;font-weight:bold;">Ver fuente oficial →</a></p>
+                </td></tr>
+                <tr><td style="padding:24px 0;border-top:1px solid #dfe7e2;font-size:16px;line-height:1.65;color:#2d3b34;">
+                  <div style="font-size:12px;color:#26734a;font-weight:bold;letter-spacing:.5px;">03 · GITHUB</div>
+                  <h3 style="margin:7px 0 8px;font-size:21px;color:#17201c;">Las automatizaciones necesitan decidir quién puede activarlas</h3>
+                  <p style="margin:0 0 10px;">GitHub hizo disponibles de forma general sus protecciones de ejecución para Actions. Permiten controlar quién puede iniciar un flujo, qué evento puede hacerlo, aplicar reglas a procesos concretos y probarlas primero en modo de evaluación.</p>
+                  <p style="margin:0;"><strong>La traducción práctica:</strong> un buen sistema no solo define qué puede hacer. También define quién puede ponerlo en marcha, bajo qué condiciones y qué queda registrado. Esto importa todavía más cuando conectas agentes con pagos, publicaciones o datos de clientes.</p>
+                  <p style="margin:10px 0 0;"><a href="https://github.blog/changelog/2026-09-17-workflow-execution-protections-in-github-actions-generally-available/" style="color:#1d6a42;font-weight:bold;">Ver fuente oficial →</a></p>
+                </td></tr>
+                <tr><td style="padding:24px 0;border-top:1px solid #dfe7e2;font-size:16px;line-height:1.65;color:#2d3b34;">
+                  <div style="font-size:12px;color:#26734a;font-weight:bold;letter-spacing:.5px;">04 · VERCEL / WEBMCP</div>
+                  <h3 style="margin:7px 0 8px;font-size:21px;color:#17201c;">Las webs empiezan a exponer acciones directamente a los agentes</h3>
+                  <p style="margin:0 0 10px;">Vercel añadió soporte experimental para WebMCP en su herramienta mcp-handler. La idea es que una web pueda ofrecer funciones a agentes que trabajan dentro del navegador y reutilizar la sesión del usuario.</p>
+                  <p style="margin:0;"><strong>Por qué importa:</strong> estamos pasando de agentes que leen páginas a agentes que pueden usar capacidades explícitas de esas páginas. Aún es experimental, pero apunta a una web donde las acciones estarán preparadas tanto para personas como para asistentes.</p>
+                  <p style="margin:10px 0 0;"><a href="https://vercel.com/changelog/webmcp-mcp-handler" style="color:#1d6a42;font-weight:bold;">Ver fuente oficial →</a></p>
+                </td></tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:22px 32px;">
+              <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="background:#f7f8f7;border-left:5px solid #1f7a4b;border-radius:10px;">
+                <tr><td style="padding:24px;font-size:17px;line-height:1.7;color:#29372f;">
+                  <h2 style="margin:0 0 10px;font-size:24px;color:#123b2a;">La lectura de fondo</h2>
+                  <p style="margin:0 0 12px;">Las cuatro noticias hablan de lo mismo desde lugares distintos: velocidad, evaluación, permisos y herramientas.</p>
+                  <p style="margin:0 0 12px;">La IA útil no es la que produce más borradores. Es la que deja el siguiente paso preparado y hace visible qué debe revisar una persona.</p>
+                  <p style="margin:0;"><strong>Lo importante no es la herramienta, sino el proceso que cierra.</strong></p>
+                </td></tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:18px 32px 6px;font-size:17px;line-height:1.7;color:#28362f;">
+              <h2 style="margin:0 0 12px;font-size:26px;color:#123b2a;">Cómo lo aplicaría en un negocio real</h2>
+              <p>Imagina un agente para atender solicitudes comerciales. En lugar de pedirle “contesta los correos”, montaría este circuito:</p>
+              <ol style="padding-left:22px;margin:10px 0 16px;">
+                <li style="margin-bottom:8px;"><strong>Entrada:</strong> recoge el mensaje y los datos del cliente.</li>
+                <li style="margin-bottom:8px;"><strong>Criterio:</strong> clasifica intención, urgencia y valor potencial.</li>
+                <li style="margin-bottom:8px;"><strong>Propuesta:</strong> prepara respuesta y siguiente acción.</li>
+                <li style="margin-bottom:8px;"><strong>Control:</strong> escala precios, compromisos o casos sensibles a una persona.</li>
+                <li><strong>Registro:</strong> guarda qué ocurrió y si la propuesta funcionó.</li>
+              </ol>
+              <p>No empezaría por la IA. Empezaría por mapear el proceso, marcar los puntos de riesgo y decidir qué evidencia quiero conservar.</p>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:18px 32px 6px;font-size:17px;line-height:1.7;color:#28362f;">
+              <h2 style="margin:0 0 12px;font-size:26px;color:#123b2a;">Construyendo en público</h2>
+              <p>Es la misma lógica que aplico al trabajar con OpenClaw y n8n: el agente puede investigar, organizar información o preparar un borrador. Pero las acciones con impacto —enviar una campaña, publicar, pagar o cambiar un sistema— deben tener una puerta de aprobación clara.</p>
+              <p>Eso no hace la automatización menos potente. La hace utilizable de verdad.</p>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:22px 32px;">
+              <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="background:#fff8e7;border-radius:12px;border:1px solid #f0ddb0;">
+                <tr><td style="padding:24px;font-size:16px;line-height:1.65;color:#44371d;">
+                  <div style="font-size:12px;font-weight:bold;letter-spacing:.5px;color:#8a6721;">IDEA ACCIONABLE · 15 MINUTOS</div>
+                  <h2 style="margin:7px 0 12px;font-size:23px;color:#3e321c;">Encuentra el cuello de botella que moverá tu próxima automatización</h2>
+                  <ol style="margin:0;padding-left:22px;">
+                    <li style="margin-bottom:8px;">Elige un proceso repetitivo de tu negocio.</li>
+                    <li style="margin-bottom:8px;">Escribe qué tarea aceleraría la IA.</li>
+                    <li style="margin-bottom:8px;">Anota qué trabajo adicional aparecería después: revisar, aprobar, corregir, entregar o registrar.</li>
+                    <li>Define una sola regla para ese punto: quién revisa, qué criterio usa y qué evidencia queda.</li>
+                  </ol>
+                  <p style="margin:14px 0 0;"><strong>Si no puedes describir ese tramo, todavía no automatices la ejecución. Automatiza primero el borrador.</strong></p>
+                </td></tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:22px 32px 10px;">
+              <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="background:#176b42;border-radius:14px;">
+                <tr><td align="center" style="padding:30px 24px;color:#ffffff;">
+                  <h2 style="margin:0 0 10px;font-size:26px;line-height:1.25;">Monta mejores sistemas sin empezar desde cero</h2>
+                  <p style="margin:0 0 20px;font-size:16px;line-height:1.55;color:#e6f5ec;">En la comunidad privada de WhatsApp comparto acceso al Drive de recursos: workflows, prompts, agentes, plantillas, tutoriales y material práctico de IA y automatización.</p>
+                  <a href="https://chat.whatsapp.com/F9iP50T3JJWLkYFUNgEIh6?mode=gi_t" style="display:inline-block;background:#ffffff;color:#145c39;text-decoration:none;font-weight:bold;font-size:16px;padding:14px 22px;border-radius:9px;">Entrar en la comunidad privada</a>
+                </td></tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:26px 32px 38px;font-size:16px;line-height:1.65;color:#3e4b44;">
+              <p style="margin:0;">Un abrazo,<br><strong>Jaime Cabadas</strong><br><span style="color:#66736c;">IA, automatización, agentes y sistemas aplicados a negocio.</span></p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>

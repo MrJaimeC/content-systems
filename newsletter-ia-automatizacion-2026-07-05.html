@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>La semana en que los agentes bajaron al flujo real</title>
+  <style>
+    body { margin:0; padding:0; background:#f4f7f5; font-family: Arial, Helvetica, sans-serif; color:#16211c; }
+    .wrap { width:100%; background:#f4f7f5; padding:28px 0; }
+    .container { max-width:680px; margin:0 auto; background:#ffffff; border:1px solid #dfe8e2; }
+    .header { padding:28px 32px 22px; background:#123c2c; color:#ffffff; }
+    .kicker { font-size:13px; letter-spacing:.04em; text-transform:uppercase; opacity:.82; margin:0 0 10px; }
+    h1 { font-size:30px; line-height:1.15; margin:0; font-weight:700; letter-spacing:0; }
+    h2 { font-size:21px; line-height:1.3; margin:32px 0 14px; color:#123c2c; }
+    h3 { font-size:17px; line-height:1.35; margin:22px 0 8px; color:#16211c; }
+    p { font-size:16px; line-height:1.62; margin:0 0 16px; }
+    ul { padding-left:22px; margin:0 0 18px; }
+    li { font-size:16px; line-height:1.58; margin:0 0 10px; }
+    a { color:#176b46; text-decoration:underline; }
+    .content { padding:28px 32px 34px; }
+    .note { background:#eef7f1; border-left:4px solid #176b46; padding:16px 18px; margin:22px 0; }
+    .news-item { border-top:1px solid #e5eee8; padding-top:16px; margin-top:16px; }
+    .small { font-size:14px; color:#52645a; }
+    .cta { margin:30px 0 26px; padding:24px; background:#176b46; color:#ffffff; border-radius:8px; }
+    .cta h2 { color:#ffffff; margin:0 0 10px; font-size:22px; }
+    .cta p { color:#ffffff; margin-bottom:18px; }
+    .button { display:inline-block; background:#ffffff; color:#176b46 !important; text-decoration:none; font-weight:700; padding:13px 18px; border-radius:6px; }
+    .signature { margin-top:28px; }
+    .footer { padding:18px 32px 28px; color:#65746b; font-size:13px; line-height:1.5; background:#f8faf8; border-top:1px solid #e5eee8; }
+    @media (max-width: 720px) {
+      .wrap { padding:0; }
+      .container { width:100%; border-left:0; border-right:0; }
+      .header, .content, .footer { padding-left:22px; padding-right:22px; }
+      h1 { font-size:26px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="container">
+      <div class="header">
+        <p class="kicker">newsletter de IA &amp; Automatizacion de Jaime Cabadas</p>
+        <h1>La semana en que los agentes bajaron al flujo real</h1>
+      </div>
+
+      <div class="content">
+        <p>Hola {{ $json.body.nombre }},</p>
+
+        <p>Esta semana el patron ha sido bastante claro: las noticias importantes no van de una IA mas espectacular en una demo, sino de agentes entrando en flujos reales con herramientas, costes, trazabilidad y supervision.</p>
+
+        <p>Mi lectura: estamos pasando de probar modelos sueltos a construir sistemas donde la IA tiene que hacer trabajo, dejar evidencia y permitir que una persona revise antes de cerrar el ciclo.</p>
+
+        <div class="note">
+          <p><strong>La idea de fondo:</strong> un agente util no es el que promete hacerlo todo. Es el que sabe recibir contexto, usar herramientas, avanzar una tarea y dejar el siguiente paso preparado para revision.</p>
+        </div>
+
+        <h2>Lo mas importante en IA esta semana</h2>
+
+        <div class="news-item">
+          <h3>1. Anthropic lanza Claude Sonnet 5</h3>
+          <p>Anthropic ha presentado Claude Sonnet 5, disponible en Claude, Claude Code y API. La parte importante no es solo que sea otro modelo nuevo. Lo interesante es el posicionamiento: mas capacidad agentica, mejor relacion coste-rendimiento y uso mas razonable para tareas largas donde antes mucha gente tiraba de modelos mas caros.</p>
+          <p><strong>Que cambia para un negocio:</strong> cada vez tiene mas sentido separar tareas por nivel de riesgo y coste. No todo necesita el modelo mas caro. Un buen sistema puede usar un modelo eficiente para preparar, clasificar, resumir o ejecutar pasos repetibles, y reservar modelos superiores para decisiones mas delicadas.</p>
+          <p><strong>Que no exageraria:</strong> no convierte cualquier proceso malo en uno bueno. Si el flujo esta mal definido, el modelo solo hara mas rapido el desorden.</p>
+          <p class="small">Fuente: <a href="https://www.anthropic.com/news/claude-sonnet-5">Anthropic</a></p>
+        </div>
+
+        <div class="news-item">
+          <h3>2. Vercel presenta AI SDK 7 para construir agentes</h3>
+          <p>En Vercel Ship 2026, Vercel presento AI SDK 7 como una herramienta para crear agentes que razonan, llaman herramientas, trabajan en varios turnos y operan con archivos y sandboxes usando una interfaz comun entre proveedores.</p>
+          <p><strong>Que cambia para un negocio:</strong> esto refuerza una idea clave: los agentes no viven dentro del chat, viven conectados a herramientas. La utilidad aparece cuando pueden leer datos, llamar APIs, preparar archivos, actualizar estados y dejar trazas.</p>
+          <p><strong>Mi lectura:</strong> no empezaria preguntando que agente construir. Empezaria preguntando que proceso se repite cada semana y que paso queda siempre pendiente por falta de tiempo.</p>
+          <p class="small">Fuente: <a href="https://vercel.com/blog/vercel-ship-2026-recap">Vercel</a></p>
+        </div>
+
+        <div class="news-item">
+          <h3>3. GitHub Copilot avanza en agentes dentro del entorno de trabajo</h3>
+          <p>GitHub anuncio que Copilot Agent ya esta disponible dentro de JetBrains AI Assistant. Tambien abrio en preview el streaming de actividad de sesiones de agente para empresas, con visibilidad sobre prompts, respuestas y llamadas a herramientas.</p>
+          <p><strong>Por que importa:</strong> aqui hay dos movimientos a la vez. Por un lado, el agente entra donde ya trabaja la persona. Por otro, la empresa empieza a poder auditar que ha hecho ese agente.</p>
+          <p><strong>Aplicacion practica:</strong> en automatizacion pasa lo mismo. Un flujo serio no deberia limitarse a ejecutar. Debe guardar que recibio, que decidio, que herramienta uso, que cambio hizo y que queda pendiente de aprobacion.</p>
+          <p class="small">Fuentes: <a href="https://github.blog/changelog/2026-06-30-copilot-agent-is-now-available-in-jetbrains-ai-assistant/">GitHub Copilot en JetBrains</a> y <a href="https://github.blog/changelog/2026-07-02-copilot-agent-session-streaming-is-now-in-public-preview/">GitHub session streaming</a></p>
+        </div>
+
+        <div class="news-item">
+          <h3>4. Cursor lleva sus agentes al movil</h3>
+          <p>Cursor lanzo su app para iOS en beta publica para planes de pago. La noticia puede parecer menor, pero apunta a algo relevante: iniciar, revisar o desbloquear trabajo con agentes empieza a moverse fuera del escritorio.</p>
+          <p><strong>Que cambia para negocios reales:</strong> no significa que haya que gestionar operaciones complejas desde el movil. Significa que ciertos pasos ligeros pueden hacerse en cualquier momento: revisar un borrador, pedir una investigacion, iniciar una tarea tecnica o dejar preparada una accion para mas tarde.</p>
+          <p><strong>La advertencia:</strong> cuanto mas facil es lanzar tareas, mas importante es tener limites. Un agente sin contexto, sin criterio y sin revision puede generar trabajo extra en lugar de quitarlo.</p>
+          <p class="small">Fuente: <a href="https://cursor.com/blog/ios-mobile-app">Cursor</a></p>
+        </div>
+
+        <div class="news-item">
+          <h3>5. Mistral publica Leanstral 1.5</h3>
+          <p>Mistral presento Leanstral 1.5, un modelo abierto orientado a verificacion formal y pruebas en Lean. Es una noticia mas tecnica, pero merece entrar por el patron que representa: IA que no solo genera una respuesta, sino que intenta demostrar, verificar y encontrar fallos.</p>
+          <p><strong>Lectura practica:</strong> para la mayoria de negocios, esto no va de usar Lean manana. Va de hacia donde se mueve el mercado: menos texto bonito y mas evidencia. La IA util sera la que deje una comprobacion, una prueba, una validacion o una razon clara para que una persona pueda decidir.</p>
+          <p class="small">Fuente: <a href="https://mistral.ai/news/leanstral-1-5/">Mistral AI</a></p>
+        </div>
+
+        <h2>Lectura de Jaime</h2>
+
+        <p>La semana deja una conclusion bastante sencilla: los agentes estan madurando cuando empiezan a parecer menos magia y mas operacion.</p>
+
+        <p>Mas modelos, mas SDKs, mas integraciones y mas apps moviles no solucionan nada por si solos. Lo importante es que cada vez hay mas piezas para cerrar ciclos completos: entrada, criterio, accion, registro y revision.</p>
+
+        <p>La IA ayuda, pero el criterio sigue siendo humano. Y precisamente por eso los mejores sistemas no intentan esconder lo que hacen. Lo dejan visible.</p>
+
+        <h2>Aplicacion practica</h2>
+
+        <p>Si tuviera que aplicar esta idea en una empresa pequena, no empezaria por meter un agente en todo. Empezaria por un proceso concreto donde ya haya repeticion y perdida de tiempo.</p>
+
+        <p>Por ejemplo:</p>
+
+        <ul>
+          <li>Entradas de leads que llegan por formulario, WhatsApp o email.</li>
+          <li>Consultas frecuentes que alguien responde siempre parecido.</li>
+          <li>Facturas, documentos o solicitudes que se revisan manualmente.</li>
+          <li>Contenido que se crea, se adapta y se publica en varios canales.</li>
+          <li>Seguimientos comerciales que dependen de que alguien se acuerde.</li>
+        </ul>
+
+        <p>El sistema bueno no seria: "que la IA lo haga todo". El sistema bueno seria: que la IA clasifique, prepare la respuesta, proponga el siguiente paso, guarde el registro y deje lo importante listo para aprobar.</p>
+
+        <h2>Construyendo en publico</h2>
+
+        <p>Esto conecta mucho con lo que estoy montando alrededor de automatizaciones, n8n, OpenClaw y sistemas propios.</p>
+
+        <p>La parte potente no es tener un agente respondiendo mensajes. La parte potente es que ese agente pueda trabajar dentro de un proceso real: leer contexto, decidir una ruta, llamar una herramienta, preparar un borrador, dejar evidencia y esperar aprobacion cuando toca.</p>
+
+        <p>Esto no va de producir mas ruido, sino de dejar el siguiente paso preparado.</p>
+
+        <h2>Idea accionable para hoy</h2>
+
+        <p>Elige un proceso repetitivo de tu negocio y haz este ejercicio en 15 minutos:</p>
+
+        <ul>
+          <li>Escribe cual es la entrada: formulario, email, WhatsApp, hoja de calculo, pedido, factura.</li>
+          <li>Define cual es la salida deseada: respuesta, registro, tarea, aviso, propuesta, documento.</li>
+          <li>Marca que pasos son mecanicos y que pasos necesitan criterio humano.</li>
+          <li>Decide donde debe parar la automatizacion para pedir aprobacion.</li>
+          <li>Anota que evidencia deberia guardar: resumen, enlace, decision, fecha, responsable.</li>
+        </ul>
+
+        <p>Con eso ya tienes el mapa base para construir un workflow util. Despues puedes decidir si lo haces con n8n, Make, Zapier, una API o un agente mas avanzado.</p>
+
+        <p>Pero el orden importa: primero proceso, despues herramienta.</p>
+
+        <div class="cta">
+          <h2>Entra en la comunidad privada de WhatsApp</h2>
+          <p>Estoy compartiendo recursos practicos para montar sistemas de IA y automatizacion sin empezar desde cero: Drive de recursos, workflows, prompts, agentes, plantillas y tutoriales.</p>
+          <a class="button" href="https://chat.whatsapp.com/F9iP50T3JJWLkYFUNgEIh6?mode=gi_t">Entrar en la comunidad</a>
+        </div>
+
+        <div class="signature">
+          <p>Un abrazo,</p>
+          <p><strong>Jaime Cabadas</strong><br>IA, automatizacion, agentes y sistemas aplicados a negocio.</p>
+        </div>
+      </div>
+
+      <div class="footer">
+        Fuentes principales revisadas esta semana: Anthropic, Vercel, GitHub, Cursor, Mistral y documentacion de n8n. La seleccion prioriza novedades oficiales y aplicacion practica para negocio.
+      </div>
+    </div>
+  </div>
+</body>
+</html>

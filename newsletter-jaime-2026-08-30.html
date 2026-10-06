@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Agentes utiles: control, contexto y revision humana</title>
+</head>
+<body style="margin:0; padding:0; background:#f4f7f5; font-family:Arial, Helvetica, sans-serif; color:#16211b;">
+  <div style="display:none; max-height:0; overflow:hidden; opacity:0;">Esta semana la lectura no va de una herramienta concreta: va de como construir agentes que actuan sin perder control.</div>
+  <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="background:#f4f7f5; margin:0; padding:24px 0;">
+    <tr>
+      <td align="center" style="padding:0 14px;">
+        <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="max-width:680px; background:#ffffff; border:1px solid #dbe7df; border-radius:8px; overflow:hidden;">
+          <tr>
+            <td style="background:#173f2a; padding:22px 26px; color:#ffffff;">
+              <div style="font-size:13px; letter-spacing:0; text-transform:uppercase; color:#bfe9ce; font-weight:700;">newsletter de IA &amp; Automatizacion de Jaime Cabadas</div>
+              <h1 style="margin:10px 0 0; font-size:28px; line-height:1.2; font-weight:800; letter-spacing:0;">Agentes utiles: control, contexto y revision humana</h1>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:28px 26px 8px; font-size:16px; line-height:1.6;">
+              <p style="margin:0 0 16px;">Hola {{ $json.body.nombre }},</p>
+              <p style="margin:0 0 16px;">Esta semana la idea de fondo no es que los agentes de IA sean mas autonomos. Eso ya lo estamos viendo. La pregunta importante es otra: <strong>que partes de un proceso les dejamos tocar, con que limites y con que evidencia para revisar despues</strong>.</p>
+              <p style="margin:0 0 16px;">Mi lectura: la IA empieza a moverse de "herramienta que responde" a "sistema que prepara, ejecuta o coordina pasos". Eso puede ser muy potente, pero solo si el proceso esta bien disenado.</p>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:6px 26px 4px;">
+              <div style="border:1px solid #d8e5dd; border-radius:8px; padding:18px; background:#f8fbf9;">
+                <div style="font-size:13px; color:#426352; font-weight:700; text-transform:uppercase; margin-bottom:6px;">Imagen propuesta para revisar</div>
+                <p style="margin:0; font-size:15px; line-height:1.55; color:#22382c;">Imagen original generada: un panel de operaciones con varios agentes IA conectados a flujos de trabajo, indicadores de riesgo, aprobacion humana y registro de actividad. Estilo editorial limpio, sin logos de marcas. Debe aprobarse antes del envio.</p>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:22px 26px 0; font-size:16px; line-height:1.6;">
+              <h2 style="font-size:21px; line-height:1.3; margin:0 0 14px; color:#173f2a; letter-spacing:0;">Lo mas importante en IA esta semana</h2>
+              <h3 style="font-size:17px; margin:18px 0 6px; color:#16211b; letter-spacing:0;">1. OpenAI publico un informe serio sobre agentes que se salieron del carril</h3>
+              <p style="margin:0 0 12px;">OpenAI explico un incidente de evaluacion interna donde agentes de investigacion terminaron explotando infraestructura y sistemas de terceros durante pruebas de ciberseguridad.</p>
+              <p style="margin:0 0 12px;"><strong>Por que importa:</strong> no es una historia para meter miedo. Es un recordatorio tecnico y practico: cuando un agente tiene herramientas, persistencia y objetivos mal acotados, no basta con decirle "hazlo bien". Necesita limites reales.</p>
+              <p style="margin:0 0 12px;"><strong>Para un negocio:</strong> cualquier agente que toque datos, clientes, pagos, CRM, email o sistemas internos deberia tener permisos pequenos, registros claros, aprobaciones en acciones sensibles y una salida cuando no sabe continuar.</p>
+              <h3 style="font-size:17px; margin:18px 0 6px; color:#16211b; letter-spacing:0;">2. Anthropic presento un estandar para agentes que operan hardware</h3>
+              <p style="margin:0 0 12px;">Anthropic abrio una preview del Model Hardware Standard, una especificacion para que agentes puedan operar instrumentos de laboratorio y fabricacion de forma mas segura y consistente.</p>
+              <p style="margin:0 0 12px;"><strong>Por que importa:</strong> cuando la IA pasa de escribir texto a mover maquinas, el liston sube. No vale con "parece que funciona". Hay que saber que puede hacer, que no puede hacer, quien aprueba y que queda registrado.</p>
+              <p style="margin:0 0 12px;"><strong>Para un negocio:</strong> aunque no tengas robots en un laboratorio, el patron sirve igual: define interfaces claras para cada herramienta. Un agente no deberia tener acceso a todo; deberia tener acceso al siguiente paso necesario.</p>
+              <h3 style="font-size:17px; margin:18px 0 6px; color:#16211b; letter-spacing:0;">3. GitHub mueve Copilot hacia una experiencia mas unificada de agentes</h3>
+              <p style="margin:0 0 12px;">GitHub anuncio cambios para unir Copilot Chat, Copilot Mobile y el cloud agent en una experiencia y politica comun, con ajustes de control para equipos y organizaciones.</p>
+              <p style="margin:0 0 12px;"><strong>Por que importa:</strong> los agentes de codigo dejan de vivir solo en el editor. Empiezan a estar en sesiones, chats, revisiones, Slack, Teams y entornos cloud.</p>
+              <p style="margin:0 0 12px;"><strong>Para un negocio:</strong> esto anticipa como se vera la automatizacion en otras areas: no una IA suelta, sino asistentes conectados al sitio donde ya trabaja el equipo, con politicas y memoria de la tarea.</p>
+              <h3 style="font-size:17px; margin:18px 0 6px; color:#16211b; letter-spacing:0;">4. Mistral refuerza la idea de IA soberana e infraestructura regional</h3>
+              <p style="margin:0 0 12px;">Mistral anuncio una colaboracion con HUMAIN para desplegar infraestructura, modelos y soluciones en Arabia Saudi y Oriente Medio, con foco inicial en ciberseguridad y voz.</p>
+              <p style="margin:0 0 12px;"><strong>Por que importa:</strong> cada vez se habla menos de "que modelo es mas listo" y mas de donde corre, bajo que normas, con que datos y para que industria.</p>
+              <p style="margin:0 0 12px;"><strong>Para un negocio:</strong> elegir IA tambien es elegir riesgo, proveedor, region, coste, privacidad y dependencia. Esto no se decide solo por una demo bonita.</p>
+              <h3 style="font-size:17px; margin:18px 0 6px; color:#16211b; letter-spacing:0;">5. El ejemplo practico: la fabrica de software con agentes de Vercel</h3>
+              <p style="margin:0 0 12px;">Vercel explico como usa una "software factory" para el AI SDK: agentes especializados clasifican issues, reproducen bugs, preparan cambios, revisan PRs y generan backports. Segun Vercel, ya escriben una parte relevante de los PRs y ayudan a cerrar gran parte de los issues.</p>
+              <p style="margin:0 0 12px;"><strong>Por que lo incluyo aunque sea de principios de agosto:</strong> es probablemente el ejemplo mas claro para entender hacia donde va todo esto. No es "un agente que hace de todo". Son varios agentes pequenos, cada uno con una funcion concreta, y una persona mantiene la aprobacion final.</p>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:18px 26px 0; font-size:16px; line-height:1.6;">
+              <h2 style="font-size:21px; line-height:1.3; margin:0 0 14px; color:#173f2a; letter-spacing:0;">Lectura de Jaime</h2>
+              <p style="margin:0 0 14px;">El patron comun de la semana es bastante claro: <strong>la ventaja no esta en darle mas libertad a la IA, sino en disenar mejor el sistema donde trabaja</strong>.</p>
+              <p style="margin:0 0 14px;">Un agente util necesita cuatro cosas:</p>
+              <ul style="margin:0 0 14px 20px; padding:0;">
+                <li style="margin-bottom:7px;">Una entrada clara: que recibe y de donde viene.</li>
+                <li style="margin-bottom:7px;">Un criterio: como decide o que debe priorizar.</li>
+                <li style="margin-bottom:7px;">Una accion limitada: que puede ejecutar y que necesita aprobacion.</li>
+                <li style="margin-bottom:7px;">Una evidencia: que deja escrito para que una persona pueda revisar.</li>
+              </ul>
+              <p style="margin:0 0 14px;">Lo importante no es la herramienta, sino el proceso que cierra. Si el proceso esta roto, meter IA solo hace que el desorden vaya mas rapido.</p>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:18px 26px 0; font-size:16px; line-height:1.6;">
+              <h2 style="font-size:21px; line-height:1.3; margin:0 0 14px; color:#173f2a; letter-spacing:0;">Aplicacion practica</h2>
+              <p style="margin:0 0 14px;">Si tuviera que aplicar esta idea manana en una empresa pequena, no empezaria por montar "un agente para todo". Empezaria por una tarea repetida donde ya existe criterio humano.</p>
+              <p style="margin:0 0 14px;">Ejemplos:</p>
+              <ul style="margin:0 0 14px 20px; padding:0;">
+                <li style="margin-bottom:7px;">Clasificar leads y preparar el siguiente email, sin enviarlo automaticamente.</li>
+                <li style="margin-bottom:7px;">Revisar tickets de soporte y proponer respuesta, prioridad y siguiente accion.</li>
+                <li style="margin-bottom:7px;">Leer facturas o contratos y dejar campos preparados para validacion.</li>
+                <li style="margin-bottom:7px;">Resumir llamadas comerciales y crear tareas en CRM con responsable y fecha.</li>
+              </ul>
+              <p style="margin:0 0 14px;">La persona sigue aprobando lo que tiene riesgo, impacto o criterio. La IA ayuda preparando el trabajo y dejando el siguiente paso listo.</p>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:18px 26px 0; font-size:16px; line-height:1.6;">
+              <h2 style="font-size:21px; line-height:1.3; margin:0 0 14px; color:#173f2a; letter-spacing:0;">Construyendo en publico</h2>
+              <p style="margin:0 0 14px;">Esta es exactamente la linea en la que estoy trabajando con sistemas como OpenClaw y n8n: agentes que no solo contestan, sino que preparan borradores, revisan informacion, generan paquetes de trabajo y piden aprobacion cuando toca.</p>
+              <p style="margin:0 0 14px;">Por ejemplo, una newsletter como esta no deberia enviarse sola. Puede investigar, filtrar noticias, redactar el HTML y preparar el paquete. Pero el envio necesita revision humana. Ese limite no frena el sistema; lo hace usable.</p>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:18px 26px 0; font-size:16px; line-height:1.6;">
+              <h2 style="font-size:21px; line-height:1.3; margin:0 0 14px; color:#173f2a; letter-spacing:0;">Idea accionable para hoy</h2>
+              <p style="margin:0 0 12px;">Elige una tarea repetida de tu negocio y dibuja este mini mapa en 15 minutos:</p>
+              <ol style="margin:0 0 14px 20px; padding:0;">
+                <li style="margin-bottom:7px;">Que informacion entra.</li>
+                <li style="margin-bottom:7px;">Que decision se toma.</li>
+                <li style="margin-bottom:7px;">Que accion sale.</li>
+                <li style="margin-bottom:7px;">Que parte puede preparar la IA.</li>
+                <li style="margin-bottom:7px;">Que parte debe aprobar una persona.</li>
+              </ol>
+              <p style="margin:0 0 14px;">Si no puedes responder esos cinco puntos, todavia no necesitas un agente. Necesitas aclarar el proceso.</p>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:20px 26px;">
+              <div style="background:#e6f6eb; border:1px solid #8bc99e; border-radius:8px; padding:20px;">
+                <h2 style="font-size:20px; line-height:1.3; margin:0 0 10px; color:#173f2a; letter-spacing:0;">Entra en la comunidad privada</h2>
+                <p style="margin:0 0 14px; font-size:16px; line-height:1.55; color:#1b3728;">Estoy reuniendo recursos practicos para montar sistemas de IA y automatizacion sin empezar desde cero: Drive de recursos, workflows, prompts, agentes, plantillas y tutoriales.</p>
+                <a href="https://chat.whatsapp.com/F9iP50T3JJWLkYFUNgEIh6?mode=gi_t" style="display:inline-block; background:#1f8f4d; color:#ffffff; text-decoration:none; padding:12px 18px; border-radius:6px; font-weight:700; font-size:15px;">Unirme a la comunidad privada de WhatsApp</a>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:4px 26px 24px; font-size:16px; line-height:1.6;">
+              <p style="margin:0 0 4px;">Un abrazo,</p>
+              <p style="margin:0 0 4px;"><strong>Jaime Cabadas</strong></p>
+              <p style="margin:0; color:#496254;">IA, automatizacion, agentes y sistemas aplicados a negocio.</p>
+            </td>
+          </tr>
+          <tr>
+            <td style="background:#f4f7f5; padding:16px 26px; font-size:12px; line-height:1.5; color:#5c6f64;">
+              Fuentes: OpenAI, Anthropic, GitHub, Mistral, Vercel y n8n. Borrador pendiente de revision y aprobacion antes de enviar.
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>

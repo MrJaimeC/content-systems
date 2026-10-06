@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Newsletter de IA & Automatizacion - Jaime Cabadas</title>
+  </head>
+  <body style="margin:0;padding:0;background:#f5f7f4;font-family:Arial,Helvetica,sans-serif;color:#172018;">
+    <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="background:#f5f7f4;margin:0;padding:24px 0;">
+      <tr>
+        <td align="center" style="padding:0 14px;">
+          <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="max-width:680px;background:#ffffff;border:1px solid #dfe7dc;border-radius:8px;overflow:hidden;">
+            <tr>
+              <td style="padding:28px 30px 18px;background:#173f2a;color:#ffffff;">
+                <div style="font-size:13px;line-height:18px;text-transform:uppercase;letter-spacing:.08em;color:#bfe4c7;">newsletter de IA &amp; Automatizacion de Jaime Cabadas</div>
+                <h1 style="margin:12px 0 0;font-size:28px;line-height:34px;font-weight:700;color:#ffffff;">La semana en que los agentes dejaron de ser demos y empezaron a exigir sistema</h1>
+              </td>
+            </tr>
+            <tr>
+              <td style="padding:28px 30px 8px;">
+                <p style="margin:0 0 16px;font-size:16px;line-height:25px;">Hola {{ $json.body.nombre }},</p>
+                <p style="margin:0 0 16px;font-size:16px;line-height:25px;">Esta semana ha habido bastante movimiento en IA, pero el patron importante no es que haya salido otro modelo mas.</p>
+                <p style="margin:0 0 16px;font-size:16px;line-height:25px;">Mi lectura: la IA se esta moviendo de la conversacion al trabajo operativo. Ya no basta con que responda bien. Tiene que entrar en archivos, codigo, documentos, procesos, costes, permisos y revision humana.</p>
+                <p style="margin:0 0 22px;font-size:16px;line-height:25px;">Eso es bueno para quien construye sistemas. Y es peligroso para quien solo conecta herramientas sin pensar el proceso.</p>
+              </td>
+            </tr>
+            <tr>
+              <td style="padding:8px 30px 6px;">
+                <h2 style="margin:0 0 14px;font-size:22px;line-height:28px;color:#173f2a;">Lo mas importante en IA esta semana</h2>
+
+                <div style="border-top:1px solid #e4ebe1;padding:18px 0;">
+                  <h3 style="margin:0 0 8px;font-size:18px;line-height:24px;color:#172018;">1. OpenAI lanzo GPT-5.6 y ChatGPT Work</h3>
+                  <p style="margin:0 0 10px;font-size:15px;line-height:24px;">OpenAI presento la familia GPT-5.6 y, sobre todo, ChatGPT Work: un agente pensado para actuar sobre apps, archivos y flujos de trabajo durante tareas largas.</p>
+                  <p style="margin:0;font-size:15px;line-height:24px;"><strong>Por que importa:</strong> el foco ya no esta solo en "contestar mejor", sino en convertir contexto disperso en entregables: hojas, presentaciones, documentos, webs, analisis y acciones revisables.</p>
+                </div>
+
+                <div style="border-top:1px solid #e4ebe1;padding:18px 0;">
+                  <h3 style="margin:0 0 8px;font-size:18px;line-height:24px;color:#172018;">2. Anthropic mostro un caso real de agentes para ciberseguridad publica</h3>
+                  <p style="margin:0 0 10px;font-size:15px;line-height:24px;">El Gobierno de Alberta uso Claude Code para revisar 466 millones de lineas de codigo en unas 20 horas, detectar vulnerabilidades y preparar correcciones con revision de ingenieros.</p>
+                  <p style="margin:0;font-size:15px;line-height:24px;"><strong>Por que importa:</strong> es un ejemplo claro de agente util: detecta, prioriza, cita evidencias, propone cambios, prueba y deja el trabajo listo para aprobacion humana.</p>
+                </div>
+
+                <div style="border-top:1px solid #e4ebe1;padding:18px 0;">
+                  <h3 style="margin:0 0 8px;font-size:18px;line-height:24px;color:#172018;">3. Meta abrio la API de Muse Spark 1.1</h3>
+                  <p style="margin:0 0 10px;font-size:15px;line-height:24px;">Meta lanzo Muse Spark 1.1 y una public preview de Meta Model API para desarrolladores, con enfoque en razonamiento, codigo, contexto largo, multimodalidad y herramientas.</p>
+                  <p style="margin:0;font-size:15px;line-height:24px;"><strong>Por que importa:</strong> mas proveedores estan compitiendo por ser la capa sobre la que se construyen agentes. Para un negocio, esto significa mas opciones, pero tambien mas necesidad de comparar coste, privacidad, calidad y dependencia.</p>
+                </div>
+
+                <div style="border-top:1px solid #e4ebe1;padding:18px 0;">
+                  <h3 style="margin:0 0 8px;font-size:18px;line-height:24px;color:#172018;">4. Mistral empezo a tratar prompts y skills como activos de produccion</h3>
+                  <p style="margin:0 0 10px;font-size:15px;line-height:24px;">Mistral anuncio en Studio un sistema de registro para prompts y skills: versiones, propietarios, historial, rollback, etiquetas y trazabilidad.</p>
+                  <p style="margin:0;font-size:15px;line-height:24px;"><strong>Por que importa:</strong> esto toca una herida real. En muchas empresas los prompts viven en Slack, Notion, repos o documentos sueltos. Si una instruccion define como responde o actua un agente, esa instruccion ya es logica de negocio.</p>
+                </div>
+
+                <div style="border-top:1px solid #e4ebe1;border-bottom:1px solid #e4ebe1;padding:18px 0;">
+                  <h3 style="margin:0 0 8px;font-size:18px;line-height:24px;color:#172018;">5. Google sigue empujando la idea de plataforma de agentes empresariales</h3>
+                  <p style="margin:0 0 10px;font-size:15px;line-height:24px;">Google Cloud volvio a poner el foco en Gemini Enterprise Agent Platform: construir, escalar, gobernar y optimizar agentes dentro de entornos de empresa.</p>
+                  <p style="margin:0;font-size:15px;line-height:24px;"><strong>Por que importa:</strong> el mercado esta diciendo lo mismo desde varios angulos: el problema ya no es "tener IA", sino gobernarla para que trabaje sin romper nada.</p>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td style="padding:18px 30px 8px;">
+                <h2 style="margin:0 0 14px;font-size:22px;line-height:28px;color:#173f2a;">Lectura de Jaime</h2>
+                <p style="margin:0 0 16px;font-size:16px;line-height:25px;">La ventaja no esta en probar todas las herramientas. Esta en saber que parte del negocio merece convertirse en sistema.</p>
+                <p style="margin:0 0 16px;font-size:16px;line-height:25px;">Un agente bueno necesita cuatro cosas:</p>
+                <ul style="margin:0 0 18px 22px;padding:0;font-size:16px;line-height:25px;">
+                  <li>Entrada clara: que informacion recibe y de donde sale.</li>
+                  <li>Criterio: que reglas debe seguir y que no puede decidir solo.</li>
+                  <li>Accion: que debe dejar preparado, actualizado o registrado.</li>
+                  <li>Revision: cuando una persona debe aprobar antes de tocar nada sensible.</li>
+                </ul>
+                <p style="margin:0 0 16px;font-size:16px;line-height:25px;">Lo importante no es la herramienta, sino el proceso que cierra.</p>
+                <p style="margin:0 0 16px;font-size:16px;line-height:25px;">Si manana cambias OpenAI por Anthropic, Meta, Mistral o Google, tu sistema deberia seguir teniendo sentido. Si no lo tiene, no tenias un sistema: tenias una dependencia disfrazada de automatizacion.</p>
+              </td>
+            </tr>
+            <tr>
+              <td style="padding:8px 30px 8px;">
+                <h2 style="margin:0 0 14px;font-size:22px;line-height:28px;color:#173f2a;">Aplicacion practica</h2>
+                <p style="margin:0 0 16px;font-size:16px;line-height:25px;">Si tuviera que aplicar esta semana a un negocio pequeno, no empezaria por contratar otra herramienta. Empezaria por elegir un proceso repetitivo con impacto claro.</p>
+                <p style="margin:0 0 8px;font-size:16px;line-height:25px;">Por ejemplo:</p>
+                <ul style="margin:0 0 18px 22px;padding:0;font-size:16px;line-height:25px;">
+                  <li>Responder leads.</li>
+                  <li>Preparar presupuestos.</li>
+                  <li>Revisar incidencias.</li>
+                  <li>Convertir reuniones en tareas.</li>
+                  <li>Clasificar documentos y extraer datos.</li>
+                </ul>
+                <p style="margin:0 0 16px;font-size:16px;line-height:25px;">Luego haria una pregunta sencilla: que parte puede preparar la IA para que una persona decida mas rapido?</p>
+                <p style="margin:0 0 16px;font-size:16px;line-height:25px;">Ese es el punto. La IA no tiene que "hacerlo todo". Muchas veces el salto de valor esta en que deje el siguiente paso preparado: borrador, resumen, comparativa, alerta, propuesta o registro.</p>
+              </td>
+            </tr>
+            <tr>
+              <td style="padding:8px 30px 8px;">
+                <h2 style="margin:0 0 14px;font-size:22px;line-height:28px;color:#173f2a;">Construyendo en publico</h2>
+                <p style="margin:0 0 16px;font-size:16px;line-height:25px;">Esto conecta directamente con lo que estoy montando alrededor de OpenClaw, n8n, Sysmia y los sistemas de contenido.</p>
+                <p style="margin:0 0 16px;font-size:16px;line-height:25px;">Por ejemplo, esta newsletter no deberia depender de "pedirle a la IA que escriba algo bonito". El sistema correcto revisa fuentes, filtra ruido, propone un angulo, prepara HTML, mantiene el CTA, pide aprobacion y solo despues envia.</p>
+                <p style="margin:0 0 16px;font-size:16px;line-height:25px;">La persona sigue aprobando lo que tiene riesgo, impacto o criterio. La IA prepara el trabajo para que esa aprobacion sea mas rapida y mejor informada.</p>
+              </td>
+            </tr>
+            <tr>
+              <td style="padding:8px 30px 8px;">
+                <h2 style="margin:0 0 14px;font-size:22px;line-height:28px;color:#173f2a;">Idea accionable para hoy</h2>
+                <p style="margin:0 0 12px;font-size:16px;line-height:25px;">Dedica 15 minutos a mapear un mini-agente para tu negocio:</p>
+                <ol style="margin:0 0 18px 22px;padding:0;font-size:16px;line-height:25px;">
+                  <li>Elige una tarea repetitiva que hagas cada semana.</li>
+                  <li>Escribe que informacion necesita para empezar.</li>
+                  <li>Define que resultado debe dejar preparado.</li>
+                  <li>Marca que decisiones no puede tomar sin ti.</li>
+                  <li>Decide donde debe guardar la evidencia: hoja, CRM, Notion, email, carpeta o ticket.</li>
+                </ol>
+                <p style="margin:0 0 16px;font-size:16px;line-height:25px;">Si no puedes responder esos cinco puntos, todavia no necesitas un agente. Necesitas aclarar el proceso.</p>
+              </td>
+            </tr>
+            <tr>
+              <td style="padding:16px 30px 24px;">
+                <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="background:#e7f6e9;border:1px solid #b8dfbf;border-radius:8px;">
+                  <tr>
+                    <td style="padding:22px;">
+                      <h2 style="margin:0 0 10px;font-size:21px;line-height:27px;color:#173f2a;">Entra en la comunidad privada</h2>
+                      <p style="margin:0 0 16px;font-size:16px;line-height:25px;color:#172018;">Dentro tienes acceso al Drive de recursos: workflows, prompts, agentes, plantillas, tutoriales y material practico para montar sistemas de IA y automatizacion sin empezar desde cero.</p>
+                      <a href="https://chat.whatsapp.com/F9iP50T3JJWLkYFUNgEIh6?mode=gi_t" style="display:inline-block;background:#1f7a3d;color:#ffffff;text-decoration:none;font-weight:700;font-size:15px;line-height:20px;padding:12px 18px;border-radius:6px;">Unirme a la comunidad de WhatsApp</a>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td style="padding:0 30px 28px;">
+                <p style="margin:0 0 16px;font-size:16px;line-height:25px;">Un abrazo,</p>
+                <p style="margin:0 0 4px;font-size:16px;line-height:25px;"><strong>Jaime Cabadas</strong></p>
+                <p style="margin:0;font-size:14px;line-height:22px;color:#526154;">IA, automatizacion, agentes y sistemas aplicados a negocio.</p>
+              </td>
+            </tr>
+            <tr>
+              <td style="padding:18px 30px;background:#f0f4ef;border-top:1px solid #dfe7dc;">
+                <p style="margin:0 0 8px;font-size:12px;line-height:18px;color:#526154;"><strong>Fuentes consultadas para esta edicion:</strong></p>
+                <p style="margin:0;font-size:12px;line-height:18px;color:#526154;">
+                  OpenAI GPT-5.6 y ChatGPT Work; Anthropic y el caso Gobierno de Alberta; Meta Muse Spark 1.1; Mistral Studio; Google Cloud Gemini Enterprise Agent Platform.
+                </p>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
